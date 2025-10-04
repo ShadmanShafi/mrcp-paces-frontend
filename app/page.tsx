@@ -20,7 +20,7 @@ export default function Home() {
       {/* Stats Bar */}
       <section className="bg-primary text-primary-foreground py-6 relative">
         {/* Logo badge (subtle, centered on md) */}
-        <div className="absolute top-4 left-4 md:top-1/2 md:left-6 md:-translate-y-1/2 z-10 bg-card/60 rounded-md p-1 ring-1 ring-primary/20">
+        <div className="hidden lg:block absolute top-4 left-4 md:top-1/2 md:left-6 md:-translate-y-1/2 z-10 bg-card/60 rounded-md p-1 ring-1 ring-primary/20">
           <Image
             src="/logo.jpg"
             alt="MRCP PACES BD Logo"

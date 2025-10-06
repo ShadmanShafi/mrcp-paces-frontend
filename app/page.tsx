@@ -41,7 +41,7 @@ export default function Home() {
               <span className="font-semibold text-lg">Medical & Health</span>
             </div>
             <div className="flex items-center gap-2">
-              <MapPin className="h-5 w-5" />
+              <MapPin className="h-5 w-5 shrink-0" />
               <span className="font-semibold text-lg">Dhaka, Bangladesh</span>
             </div>
           </div>
@@ -198,6 +198,19 @@ export default function Home() {
                     >
                       <Facebook className="h-5 w-5 text-primary" />
                       <span className="font-medium">Facebook Page</span>
+                    </a>
+
+                    <a
+                      // href="https://www.google.com/maps/search/?api=1&query=House+%23+B-31%2F6,+Jaleshwar,+Aricha+Road,+Savar,+Dhaka-1340"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-3 p-3 rounded-lg bg-muted hover:bg-muted/80 transition-colors"
+                    >
+                      <MapPin className="h-5 w-5 shrink-0 text-primary" />
+                      <span className="font-medium break-words">
+                        House # B-31/6, Jaleshwar, Aricha Road, Savar,
+                        Dhaka-1340
+                      </span>
                     </a>
                   </div>
 

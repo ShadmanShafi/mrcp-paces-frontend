@@ -181,12 +181,12 @@ export default function Home() {
                     </a>
 
                     <a
-                      href="mailto:mrcppacesbd@gmail.com"
+                      href="mailto:info@mrcppacesbd.com"
                       className="flex items-center gap-3 p-3 rounded-lg bg-muted hover:bg-muted/80 transition-colors"
                     >
                       <Mail className="h-5 w-5 text-primary" />
                       <span className="font-medium break-all">
-                        mrcppacesbd@gmail.com
+                        info@mrcppacesbd.com
                       </span>
                     </a>
 
@@ -240,7 +240,7 @@ export default function Home() {
                 asChild
                 className="text-base"
               >
-                <a href="mailto:mrcppacesbd@gmail.com">
+                <a href="mailto:info@mrcppacesbd.com">
                   <Mail className="mr-2 h-5 w-5" />
                   Email Us
                 </a>
